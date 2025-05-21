@@ -37,23 +37,33 @@
 | **HTML/CSS**   | Markup and styling                      |
 
 ---
-
-## 📸 Screenshots
-
 > ### 📸 Screenshots
 
-### Main Landing Page
-![landing Page](./screenshots/Landing-page.png)
+### Main Landing Page ()
+![landing Page](./screenshots/landing-page.jpg)
+![landing Page](./screenshots/landing-page2.jpg)
+
+### features 
+![landing Page](./screenshots/features.jpg)
 
 ### Barcode Scanner Page
-![Barcode Scanner](./screenshots/barcode-scanner.png)
+![Barcode Scanner](./screenshots/barcode-scanner.jpg)
+
+### Barcode Scanner's API Response
+![Barcode Scanner](./screenshots/api-response.jpg)
+
+### Scanner's Results and health verdict
+![Results](./screenshots/scanner-results.jpg)
 
 ### Carbon Footprint Tracker
-![Carbon Tracker](./screenshots/carbon-tracker.png)
+![Carbon Tracker](./screenshots/carbon-tracker.jpg)
 
-### Results Page
-![Results](./screenshots/scanner-results.png)
-![Results](./screenshots/tracker-results.png)
+### Tracker's Results 
+![Results](./screenshots/tracker-result.jpg)
+![Results](./screenshots/tracker-result2.jpg)
+
+### Tracker's emmision history
+![Results](./screenshots/logged-history.jpg)
 
 ---
 
@@ -81,6 +91,7 @@ npm install
 
 # Start the backend server:
 node server.js
+```
 
 🙋‍♀️ About the Creator
 
@@ -96,5 +107,3 @@ This project reflects my drive to build tools that not only use the MERN stack b
 
 📝 License
 This project is licensed under the MIT License – see the LICENSE file for details.
-
-```

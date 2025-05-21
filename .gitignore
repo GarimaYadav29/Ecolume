@@ -24,3 +24,6 @@ frontend/src/setupTests.js
 # Environment files
 backend/.env
 frontend/.env
+
+# hint file
+.hintrc
