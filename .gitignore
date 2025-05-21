@@ -1,0 +1,15 @@
+# Ignore frontend dependencies and config files
+frontend/node_modules/
+frontend/package-lock.json
+frontend/package.json
+
+# Ignore public folder inside frontend
+frontend/public/
+
+# Ignore specific files inside frontend/src
+frontend/src/assets/
+frontend/src/reportWebVitals.js
+frontend/src/setupTests.js
+
+# Ignore backend environment file
+backend/.env

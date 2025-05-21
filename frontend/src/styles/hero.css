@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding-top: 70px;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex; /* NEW */
+  align-items: center; /* NEW */
+  justify-content: center; /* NEW */
+  padding: 0; /* NEW */
+}
+
+/* IMPORTANT change for overlay */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+  z-index: 2;
+  max-width: 600px;
+  width: auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.question {
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.answer {
+  display: flex;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .overlay {
+    padding: 15px 20px;
+    max-width: 90%;
+  }
+
+  .question {
+    font-size: 2rem;
+  }
+
+  .answer {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay {
+    padding: 10px 15px;
+    max-width: 95%;
+  }
+
+  .question {
+    font-size: 1.5rem;
+  }
+
+  .answer {
+    font-size: 1rem;
+  }
+}
